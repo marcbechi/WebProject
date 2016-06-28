@@ -1,0 +1,142 @@
+.footer {
+  /* Set the fixed height of the footer here */
+  /*height: auto;*//*60px;*/
+  padding-bottom:20px;	
+  background-color: #6F5499;
+  color:#fff;
+  line-height:5px;
+}
+
+
+.auteur {
+  color:#6F5499;
+  font-weight:300;
+}
+
+
+#main_menu{
+    text-transform: uppercase;
+    margin: 0px;
+}
+#main_menu.navbar-default .navbar-brand {
+    color: #fff;
+}
+ 
+#main_menu.navbar-default {
+    font-size: 17px;
+    background-color: #6F5499;
+    border-width: 0px;
+    border-radius: 0px;
+}
+ 
+#main_menu.navbar-default .navbar-nav{
+     float:none;
+        margin: 0 auto;
+        display: table;
+        table-layout: fixed;
+}
+ 
+#main_menu.navbar-default .navbar-nav > li{
+    color: red;
+}
+ 
+#main_menu.navbar-default .navbar-nav>li>a {
+    font-stretch: expanded;
+    font-size: 18px;
+    /*font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;*/
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(248, 248, 248, 0);
+    line-height: 35px;
+    border-radius: 0px 0px 5px 5px;
+}
+#main_menu.navbar-default .navbar-nav>li>a:hover,
+#main_menu.navbar-default .navbar-nav>li>a:focus {
+    color: rgba(255, 255, 255, 1);
+    background-color: gray;
+}
+#main_menu.navbar-default .navbar-nav>.active>a,
+#main_menu.navbar-default .navbar-nav>.active>a:hover,
+#main_menu.navbar-default .navbar-nav>.active>a:focus {
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(94, 180, 255, 1);
+    border-radius: 0px 0px 5px 5px;
+}
+#main_menu.navbar-default .navbar-toggle {
+    border-color: #5eb4ff;
+}
+#main_menu.navbar-default .navbar-toggle:hover,
+#main_menu.navbar-default .navbar-toggle:focus {
+    background-color: #5eb4ff;
+}
+#main_menu.navbar-default .navbar-toggle .icon-bar {
+    background-color: #5eb4ff;
+}
+#main_menu.navbar-default .navbar-toggle:hover .icon-bar,
+#main_menu.navbar-default .navbar-toggle:focus .icon-bar {
+    background-color: #000000;
+}
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+body > .container {
+  padding: 5px 0px 0;
+}
+
+.container .text-muted {
+  margin: 20px 0;
+}
+
+.footer > .container {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.footer ul.nav li a, .footer ul.nav,  .toppage {
+  color:#fff;
+  text-decoration: none;
+}
+.footer  ul li a:hover,a:focus, a:visited{
+  color:   color:#fff;
+  text-decoration: none;
+  background-color:transparent;
+}
+
+.toppage {
+  color:   color:#fff;
+  text-decoration: none;
+  background-color:transparent;
+}
+
+code {
+  font-size: 80%;
+}
+
+
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+	
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+  height: 380px;
+  background-color: #777;
+
+}
+.carousel-inner > .item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 380px0px;
+}
